@@ -2,12 +2,13 @@ import React from "react";
 import Footer from "../../inc/Footer";
 import Header from "../../inc/Header";
 
-const Home = () => {
+const CSS = () => {
   return (
     <div>
       <Header/>
+
       <main>
-        Home Page
+        CSS Page
       </main>
       <Footer/>
 
@@ -15,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CSS;
